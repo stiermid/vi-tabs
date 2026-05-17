@@ -1,5 +1,7 @@
 # vi-tabs
 
+![vi-tabs icon](assets/icon-96.png)
+
 A Firefox extension that lets you move and navigate tabs using vi-style keyboard
 shortcuts — inspired by vi motions.
 
