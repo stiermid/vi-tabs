@@ -27,4 +27,5 @@ the last position.
 ## Customising Shortcuts
 
 Firefox may conflict with system-level or site-level `Alt+Shift+N` bindings.
-To reassign shortcuts:
+To reassign shortcuts, open `about:addons`, click the gear icon, and select
+**Manage Extension Shortcuts**.
