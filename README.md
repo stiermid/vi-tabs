@@ -9,6 +9,8 @@ shortcuts — inspired by vi motions.
 
 | Shortcut        | Action                          |
 |-----------------|---------------------------------|
+| `Alt+J`         | Switch to the tab on the right  |
+| `Alt+K`         | Switch to the tab on the left   |
 | `Alt+Shift+1`   | Move active tab to position 1   |
 | `Alt+Shift+2`   | Move active tab to position 2   |
 | `Alt+Shift+3`   | Move active tab to position 3   |

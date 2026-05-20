@@ -3,8 +3,8 @@
  *
  * Listens for keyboard commands:
  *   Alt+Shift+1–9  → move the active tab to that position
- *   Alt+H          → switch to the tab on the left (wraps around)
- *   Alt+L          → switch to the tab on the right (wraps around)
+ *   Alt+K          → switch to the tab on the left (wraps around)
+ *   Alt+J          → switch to the tab on the right (wraps around)
  *
  * The tabs API uses zero-based indexing, so "position 1" maps to index 0,
  * "position 2" maps to index 1, etc.
@@ -14,7 +14,7 @@
  */
 
 browser.commands.onCommand.addListener(async (command) => {
-  // --- Navigate left / right (Alt+H and Alt+L) ---
+  // --- Navigate left / right (Alt+K and Alt+J) ---
   if (command === "navigate-tab-left" || command === "navigate-tab-right") {
     const allTabs = await browser.tabs.query({ currentWindow: true });
     const activeTab = allTabs.find((t) => t.active);
