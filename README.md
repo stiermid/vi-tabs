@@ -1,31 +1,19 @@
 # vi-tabs
 
-![vi-tabs icon](assets/icon-96.png)
+<p align="center">
+  <img src="assets/icon.svg" width="96" alt="vi-tabs logo">
+</p>
 
-A Firefox extension that lets you move and navigate tabs using vi-style keyboard
-shortcuts — inspired by vi motions.
+A Firefox extension for navigating and moving tabs with vi-style keyboard shortcuts.
 
 ## Shortcuts
 
-| Shortcut        | Action                          |
-|-----------------|---------------------------------|
-| `Alt+J`         | Switch to the next tab          |
-| `Alt+K`         | Switch to the previous tab      |
-| `Alt+Shift+1`   | Move active tab to position 1   |
-| `Alt+Shift+2`   | Move active tab to position 2   |
-| `Alt+Shift+3`   | Move active tab to position 3   |
-| `Alt+Shift+4`   | Move active tab to position 4   |
-| `Alt+Shift+5`   | Move active tab to position 5   |
-| `Alt+Shift+6`   | Move active tab to position 6   |
-| `Alt+Shift+7`   | Move active tab to position 7   |
-| `Alt+Shift+8`   | Move active tab to position 8   |
-| `Alt+Shift+9`   | Move active tab to position 9   |
+| Shortcut           | Action                                        |
+|--------------------|-----------------------------------------------|
+| `Alt+J`            | Switch to the next tab                        |
+| `Alt+K`            | Switch to the previous tab                    |
+| `Alt+Shift+[1-9]`  | Move active tab to position 1–9               |
 
-If the target position exceeds the number of open tabs, the tab is moved to
-the last position.
+If the target position exceeds the number of open tabs, the tab moves to the last position.
 
-## Customising Shortcuts
-
-Firefox may conflict with system-level or site-level `Alt+Shift+N` bindings.
-To reassign shortcuts, open `about:addons`, click the gear icon, and select
-**Manage Extension Shortcuts**.
+To reassign shortcuts, open `about:addons` → gear icon → **Manage Extension Shortcuts**.
