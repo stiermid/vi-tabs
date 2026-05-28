@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "vi-tabs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Vi-style tab management for Firefox",
   "icons": {
     "16": "assets/icon-16.png",

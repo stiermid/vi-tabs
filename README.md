@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v0.2.0-blue" alt="version">
+  <img src="https://img.shields.io/badge/version-v0.2.1-blue" alt="version">
   <img src="https://img.shields.io/badge/license-MPL--2.0-orange" alt="license">
   <img src="https://img.shields.io/badge/platform-Firefox-brightgreen?logo=firefox-browser&logoColor=white" alt="platform">
 </p>
