@@ -71,6 +71,14 @@
     "navigate-tab-right": {
       "suggested_key": { "default": "Alt+J" },
       "description": "Switch to the next tab"
+    },
+    "navigate-tab-first": {
+      "suggested_key": { "default": "Alt+Shift+G" },
+      "description": "Switch to the first tab"
+    },
+    "navigate-tab-last": {
+      "suggested_key": { "default": "Alt+G" },
+      "description": "Switch to the last tab"
     }
   }
 }

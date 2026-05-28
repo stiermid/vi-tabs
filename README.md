@@ -18,6 +18,8 @@ A Firefox extension for navigating and moving tabs with vi-style keyboard shortc
 |--------------------|-----------------------------------------------|
 | `Alt+J`            | Switch to the next tab                        |
 | `Alt+K`            | Switch to the previous tab                    |
+| `Alt+G`            | Jump to the last tab                          |
+| `Alt+Shift+G`      | Jump to the first tab                         |
 | `Alt+Shift+[1-9]`  | Move active tab to position 1–9               |
 
 If the target position exceeds the number of open tabs, the tab moves to the last position.
